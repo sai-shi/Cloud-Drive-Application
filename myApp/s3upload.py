@@ -4,8 +4,8 @@ from django.http import HttpResponseRedirect
 import datetime
 
 
-conn = boto.connect_s3(aws_access_key_id='AKIAQ5EPO6JV3OGAPR7E',
-                       aws_secret_access_key='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')
+conn = boto.connect_s3(aws_access_key_id='#########',
+                       aws_secret_access_key='###########')
 
 
 def percent_cb(complete, total):
