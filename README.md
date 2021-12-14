@@ -1,4 +1,6 @@
 # Cloud Computing course project #
+## Application Framework: ##
+Django
 ## Functionality: ##
 • A cloud-based document storage (Cloud Drive) application. \
 • This application allows users to store documents on a cloud-based storage. 
@@ -11,6 +13,6 @@ that handles the registration, profile and login functions. \
 • Database Tier: The database tier comprises of a user credentials database. \
 • Storage Tier: The storage tier comprises of the storage for files. 
 ## Deployment Design: ##
-The final deployment should be like below: The website should be the public IP address of your EC2 machine which serves as the web server.
+The final deployment is shown below: 
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![design](https://github.com/sai-shi/Cloud-Drive-Application/blob/master/deployment_design.png)
